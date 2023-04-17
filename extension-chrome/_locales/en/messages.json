@@ -1,8 +1,8 @@
 {
 	"name": {
-		"message": "JoyReactor Improved - Post Narrow"
+		"message": "JoyReactor Improved - Post Minimizer"
 	},
 	"description": {
-		"message": "Allows you to collapse a very long post."
+		"message": "Returns the expanded long-post to a compact state."
 	}
 }
