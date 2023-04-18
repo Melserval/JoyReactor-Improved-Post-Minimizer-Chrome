@@ -7,9 +7,6 @@
 	"icons": {
 		"128": "icons/icon-128.png"
 	},
-   "permissions": [
-      "downloads"
-   ],
 	"content_scripts": [
       {
          "matches": ["*://joyreactor.cc/*", "*://*.reactor.cc/*"],
