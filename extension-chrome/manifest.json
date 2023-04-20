@@ -7,10 +7,30 @@
 	"icons": {
 		"128": "icons/icon-128.png"
 	},
+   "options_page": "options.html",
+   "options_ui": {
+      "page": "options.html",
+      "title": "__MSG_options_window_title__"
+    },
+   "permissions": [
+      "storage",
+      "tabs"
+   ],
+   "background": {
+      "service_worker": "background.js"
+   },
 	"content_scripts": [
       {
          "matches": ["*://joyreactor.cc/*", "*://*.reactor.cc/*"],
          "js": ["content/content.js"]
+      },
+      {
+         "matches":["*://joyreactor.cc/*"],
+         "css": ["content/joy.style.css"]
+      },
+      {
+         "matches":["*://old.reactor.cc/*"],
+         "css": ["content/old.style.css"]
       }
    ],
    "web_accessible_resources": [

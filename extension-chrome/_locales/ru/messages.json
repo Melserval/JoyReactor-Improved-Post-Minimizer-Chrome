@@ -4,5 +4,17 @@
 	},
 	"description": {
 		"message": "Возвращает развернутый длинно-пост в компактное состояние."
+	},
+	"options_window_title": {
+		"message": "Настройки Пост Минимайзер"
+	},
+	"option_fieldset_title": {
+		"message": "Установка позиции кнопки"
+	},
+	"btn_location_left": {
+		"message": "слева"
+	},
+	"btn_location_right": {
+		"message": "справа"
 	}
 }

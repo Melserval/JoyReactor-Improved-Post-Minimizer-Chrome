@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JoyReactor Improved - Post Minimizer</title>
+	<style>
+		form fieldset {
+			border: 2px solid #e67205;
+			border-radius: 3px;
+		}
+		form fieldset legend {
+			color: #e67205;
+		}
+		form fieldset span {
+			display: inline-block;
+			line-height: normal;
+			width: 45%;
+		}
+		form fieldset input {
+			vertical-align: middle;
+			margin: 1px;
+			display: inline-block;
+			cursor: pointer;
+		}
+		form fieldset label {
+			font-size: 0.9rem;
+			vertical-align: middle;
+			margin: 1px;
+			display: inline-block;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend id="legend_1"></legend>
+			<span>
+				<input id="btn-position-left" type="radio" name="btn-position" value="left">
+				<label for="btn-position-left">слева</label>
+			</span>
+			<span>
+				<input id="btn-position-right" type="radio" name="btn-position" value="right">
+				<label for="btn-position-right">справа</label>
+			</span>
+		</fieldset>
+	</form>
+	<script src="options.js"></script>
+</body>
+</html>

@@ -4,5 +4,17 @@
 	},
 	"description": {
 		"message": "Повертає розгорнутий довгопост у компактний стан."
+	},
+	"options_window_title": {
+		"message": "Налаштування Пост Мінімайзер"
+	},
+	"option_fieldset_title": {
+		"message": "Налаштування позиції кнопки"
+	},
+	"btn_location_left": {
+		"message": "ліворуч"
+	},
+	"btn_location_right": {
+		"message": "праворуч"
 	}
 }

@@ -4,5 +4,17 @@
 	},
 	"description": {
 		"message": "Returns the expanded long-post to a compact state."
+	},
+	"options_window_title": {
+		"message": "Options Post Minimizer"
+	},
+	"option_fieldset_title": {
+		"message": "Setting button location"
+	},
+	"btn_location_left": {
+		"message": "left"
+	},
+	"btn_location_right": {
+		"message": "right"
 	}
 }

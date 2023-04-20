@@ -1,0 +1,20 @@
+#__btn_post_narrow {
+	display: none;
+	width: 40px;
+	height: 35px;
+	background-color: #625858;
+	position: fixed;
+	border-Radius: 0 0 2px 2px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	
+	top: 0px;
+	z-Index: 9;
+}
+#__btn_post_narrow[data-btn-position="right"] {
+	margin-right: -55px;
+}
+
+#__btn_post_narrow[data-btn-position="left"] {
+	margin-right: 5px;
+}
